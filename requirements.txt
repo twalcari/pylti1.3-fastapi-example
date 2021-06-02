@@ -1,6 +1,10 @@
+PyLTI1p3==1.9.2
+fastapi==0.65.1
 cryptography==3.2.1
-Flask==1.1.2
-Flask-Caching==1.8.0
-Flask-Session==0.3.2
-Flask-DebugToolbar==0.11.0
-PyLTI1p3==1.9.1
+aiocache==0.11.1
+python-multipart==0.0.5
+uvicorn[standard]
+itsdangerous==2.0.1
+
+jinja2
+aiofiles

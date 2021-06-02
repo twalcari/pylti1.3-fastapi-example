@@ -3,7 +3,7 @@
 <head>
 <meta charset="UTF-8">
 <title>{{ page_title }}</title>
-<link href="{{ url_for('static', filename='breakout.css') }}" rel="stylesheet">
+<link href="{{ url_for('static', path='/breakout.css') }}" rel="stylesheet">
 <link href="https://fonts.googleapis.com/css?family=Roboto&display=swap" rel="stylesheet">
 <script type="text/javascript">
 // Set game difficulty if it has been set in deep linking
@@ -11,7 +11,7 @@ var currDiff = "{{ curr_diff }}";
 var currUserName = "{{ curr_user_name }}";
 var launchId = "{{ launch_id }}";
 </script>
-<script type="text/javascript" src="{{ url_for('static', filename='breakout.js') }}" charset="utf-8"></script>
+<script type="text/javascript" src="{{ url_for('static', path='/breakout.js') }}" charset="utf-8"></script>
 </head>
 <body>
 {% if is_deep_link_launch %}

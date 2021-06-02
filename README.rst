@@ -1,4 +1,4 @@
-Example of usage PyLTI1p3 library within Flask framework
+Example of usage PyLTI1p3 library within FastAPI framework
 ==========================================================
 
 `PyLTI1p3`_ is a Python implementation of LTI 1.3 Advantage Tool.
@@ -72,4 +72,4 @@ Now there is game example tool you can launch into on the port 9001:
 
     OIDC Login URL: http://127.0.0.1:9001/login/
     LTI Launch URL: http://127.0.0.1:9001/launch/
-    JWKS URL: http://127.0.0.1:9001/jwks/
+    JWKS URL: http://127.0.0.1:9001/.well-known/jwks.json
